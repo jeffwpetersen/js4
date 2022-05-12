@@ -1,0 +1,126 @@
+@import "vars";
+@import "fonts";
+
+body {
+  //font: 100% $headline-font;
+}
+
+.js-header-wrapper {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: black;
+  border-bottom: solid 1px $theme-color;
+  border-top: solid 4px $pink;
+
+  .js-title-hero {
+    .hero {
+      text-align: right;
+      .juniper {
+        position: relative;
+        color: $theme-color;
+        top: -.15rem;
+        a {
+          color: $theme-color;
+        }
+      }
+      .studio {
+        font-family: "Helvetica";
+        font-weight: bold;
+        color: white;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.js-main-wrapper {
+  //background-color: white;
+  // background-image: repeating-linear-gradient(0deg, rgba(128, 128, 128, .2), rgba(128, 128, 128, .2) 1px, transparent 1px, transparent 1rem);
+  background-position: 0 23px;
+  //height: 2000px;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  //position: relative;
+}
+
+.brand-statement {
+  //line-height: 3rem;
+}
+
+.compost-hero {
+  position: relative;
+  background-color: #86b622;
+  min-height: 100vh;
+  //background-image: url("../src/images/sun-graphic-compost-hero-full.png");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  img {
+    width: 100%;
+  }
+  .callout {
+    background: rgba(255, 255, 255, .9);
+    margin: auto;
+    padding: 2rem;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: $gray-5;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    color: $theme-tint;
+    text-align: center;
+  }
+}
+
+.kclibrary {
+  background-color: #337ab4;
+  min-height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right 0 bottom -100px;
+  position: relative;
+  .lib-content {
+    min-height: 80vh;
+  }
+  h1 {
+    letter-spacing: 12px;
+  }
+  .two-things {
+    min-height: 80vh;
+  }
+}
+
+.pager {
+  position: absolute;
+  z-index: 100;
+  bottom: 2rem;
+  right: 0;
+  text-align: center;
+  img {
+  }
+  .arrow {
+    background-color: $pink;
+    display: block;
+    border-radius: 55px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 5vh;
+    padding: 5px;
+    span {
+      background-color: $pink;
+      border: solid 4px white;
+      display: block;
+      border-radius: 50px;
+      width: 90px;
+      margin-left: auto;
+      margin-right: 5vh;
+      padding: 1rem;
+    }
+  }
+}

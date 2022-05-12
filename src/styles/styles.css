@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+
+.heading {
+    @apply font-bold text-4xl; /* a heading with bold font and 2.25rem font size */
+}
+
+@tailwind utilities;
+
+@layer base {
+    .js-main-wrapper a {
+        @apply text-theme-comp-dark hover:text-theme-color visited:text-theme-comp-dark
+    }
+}
+
+@layer utility {
+    body {
+        @apply text-base;
+    }
+
+    p {
+        /* @apply text-base; */
+    }
+
+    h1 {
+        @apply text-xl;
+    }
+
+    .js-outer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo-type {
+        position: relative;
+        font-size: 3rem;
+        top: calc(3rem * .44);
+    }
+
+    @screen sm { /* applying font size for lg breakpoint */
+        .logo-type {
+            font-size: 4rem;
+            top: calc(4rem * .44);
+        }
+    }
+
+    @screen md { /* applying font size for lg breakpoint */
+        .logo-type {
+            font-size: 4rem;
+            top: calc(4rem * .44);
+        }
+    }
+
+    @screen lg { /* applying font size for lg breakpoint */
+        .logo-type {
+            font-size: 6rem;
+            top: calc(6rem * .42);
+        }
+    }
+
+    @screen xl { /* applying font size for lg breakpoint */
+        .logo-type {
+            font-size: 8rem;
+            top: calc(8rem * .42);
+        }
+    }
+
+    @screen 2xl { /* applying font size for lg breakpoint */
+        .logo-type {
+            font-size: 10rem;
+            top: calc(10rem * .42);
+        }
+    }
+
+}
