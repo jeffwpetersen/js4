@@ -37,6 +37,10 @@
         top: calc(3rem * .44);
     }
 
+    .section {
+        padding: 0 1rem;
+    }
+
     @screen sm { /* applying font size for lg breakpoint */
         .logo-type {
             font-size: 4rem;

@@ -11,20 +11,15 @@ module.exports = {
             },
         },
         screens: {
-            'sm': '1024px',
-            // => @media (min-width: 240px) { ... }
+            'sm': '900px',
 
             'md': '1024px',
-            // => @media (min-width: 268px) { ... }
 
             'lg': '1280px',
-            // => @media (min-width: 2024px) { ... }
 
             'xl': '1536px',
-            // => @media (min-width: 2280px) { ... }
 
             '2xl': '100%',
-            // => @media (min-width: 1536px) { ... }
         },
         extend: {
             fontSize: {
