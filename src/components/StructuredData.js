@@ -52,6 +52,7 @@ const StructuredData = ({ siteUrl, title, author, social, linkedin }) => {
                     }
                   `}
             </script>
+
         </Helmet>
     )
 }
