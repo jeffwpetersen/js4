@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
+import favicon from '../images/icon.png';
 
 const StructuredData = ({ siteUrl, title, author, social, linkedin }) => {
 
@@ -23,6 +24,7 @@ const StructuredData = ({ siteUrl, title, author, social, linkedin }) => {
     return (
         <Helmet>
             <meta name="author" content="juniperstudio.com"/>
+            <link rel="shortcut icon" href={favicon} />
             <meta name="description" content={data.site.siteMetadata.description}/>
             <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
             <meta property="og:locale" content="en_US" />
