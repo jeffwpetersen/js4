@@ -93,6 +93,14 @@ module.exports = {
                 'pinks': '#FF1493',
                 'black': '#1c1917'
             },
+            lineHeight: {
+                "11": "3rem",
+                "12": "3.5rem",
+                "13": "4rem",
+                "14": "4.5rem",
+                "15": "5rem",
+                "16": "6rem",
+            }
         },
         fontFamily: {
             'sans': ['ui-sans-serif', 'system-ui'],

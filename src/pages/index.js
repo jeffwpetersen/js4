@@ -31,8 +31,8 @@ const IndexPage = () => {
                     <div className="md:flex gap-12">
                         <div className="md:w-1/3">
 
-                            <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px]">Development &&nbsp;Design</div>
-                            <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-400">We design, build, develop and
+                            <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Development &&nbsp;Design</div>
+                            <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-400 leading-8 md:leading-11">We design, build, develop and
                                 consult. If you're in need of <span className="text-black">design
                     management</span> or <span className="text-black">web development</span> get in touch and let us
                                     know what problems we can solve.<br/>
@@ -54,11 +54,9 @@ const IndexPage = () => {
                                 in German and soon to be in other languages.
                             </h3>
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Previously...</div>
-                            <p className="text-zinc-400 leading-8"><a href="http://pendergastkc.org">The Pendergast Years | Kansas City
-                                in
-                                the Jazz Age & Great Depression.</a> Tom Pendergast was a Democrat and Kansas City
-                                political
-                                boss who's corruption was legendary.</p><p className="text-zinc-400 leading-8 pt-4">
+                            <p className="text-zinc-400 leading-8 mb-10"><a href="http://pendergastkc.org">The Pendergast Years | Kansas City
+                                in the Jazz Age & Great Depression.</a> Tom Pendergast was a Democrat and Kansas City political
+                                boss who's corruption was legendary.</p><p className="text-zinc-400 leading-8 mb-8">
                             The Penderast Years site features advanced SOLR search to expose the metadata to use as
                             navigation. One of our favorite collections using metadata navigation is <a
                             href="https://pendergastkc.org/tgm-subject/musicians">Jazz musicians of the era.</a></p>
@@ -69,7 +67,7 @@ const IndexPage = () => {
                         </div>
                         <div className="md:w-1/3">
 
-                            <div className="project-folder font-thin text-zinc-400">
+                            <div className="project-folder font-thin text-zinc-400 text-base leading-8">
                                 <div className="text-lg md:text-3xl text-theme-comp-dark font-thin pt-1">Projects Folder</div>
                                 <div>
                                     <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://pendergastkc.org">The Pendergast Years</a> </span>
