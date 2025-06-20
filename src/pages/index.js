@@ -6,6 +6,7 @@ import StructuredData from "../components/StructuredData"
 import ContentBlocksCompost from "../components/content_blocks_compost"
 import ContentBlocksKclib from "../components/content_blocks_kclib"
 import Footer from "../components/Footer"
+import ReactVersion from "../components/ReactVersion"
 import Arrow from "../images/svg/arrow.svg";
 import scrollTo from 'gatsby-plugin-smoothscroll';
 

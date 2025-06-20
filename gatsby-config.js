@@ -1,3 +1,6 @@
+/**
+ * @type {import('gatsby').GatsbyConfig}
+ */
 module.exports = {
   siteMetadata: {
     title: 'Juniper Studio Design and Development',
@@ -11,7 +14,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-postcss',
-    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     "gatsby-plugin-react-helmet",
@@ -79,4 +81,3 @@ module.exports = {
 
   ]
 };
-
