@@ -32,10 +32,10 @@ const IndexPage = () => {
                     <div className="md:flex gap-12">
                         <div className="md:w-1/3">
 
-                            <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Development &&nbsp;Design</div>
-                            <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-400 leading-8 md:leading-11">We design, build, develop and
-                                consult. If you're in need of <span className="text-black">design
-                    management</span> or <span className="text-black">web development</span> get in touch and let us
+                            <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Design<br/> Develop<br/> Build<br/> Deploy<br/> Consult<br/> Create.</div>
+                          <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-400 leading-8 md:leading-11"><b>Twenty years of experience</b> and a team of helpful professionals, we have solutions to elevate your organization.
+                              If you're in need of <span className="text-black">engineering solutions, design
+                    management</span> or <span className="text-black">software development</span> get in touch and let us
                                     know what problems we can solve.<br/>
                                 <span className="text-black">We Do That.</span></h1>
                             <div><p className="contact-us text-pink-500 my-10"><strong><a href="#contact" className="scroll text-pink-500">Contact
@@ -45,41 +45,34 @@ const IndexPage = () => {
                         <div className="md:w-1/3 md:text-md font-light text-zinc-500">
 
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold align-baseline pt-3 mb-[4px]">Currently...</div>
-                            <h2 className="mb-10 text-zinc-900 leading-8">We are developing E-commerce for a line of furniture products for
-                                technology professionals.
-                                Coming Soon!...</h2>
-                            <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Recently...</div>
-                            <h3 className="mb-10 text-zinc-900 leading-8">We recently completed a project managing a large site migration from flat code to Drupal.
-                                We project managed and were responsible for site architecture, Drupal development and
-                                DevOps for <a href="http://www.coupa.com">coupa.com.</a> The site is multilingual and already
-                                in German and soon to be in other languages.
-                            </h3>
+                            <h2 className="mb-10 text-zinc-900 leading-8">We are partnering with <b>Ash & Hickory Co.,</b> an executive office space manufacturer, retailer and exhibitor. We are creating an exceptional user experience and technology stack to bring this e-commerce site to life.
+                            </h2>
+                          <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Recently...</div>
+                          <h4>Purple</h4>
+                          <h3 className="mb-10 text-zinc-900 leading-8">We executed and engineered solutions for Purple.com the matress manufacturer. We contributed to much of the site and completed a complete overhaul of the blog. <a href="https://purple.com/blog" target="_blank" rel="noreferrer">purple.com.</a>
+                          </h3>
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Previously...</div>
-                            <p className="text-zinc-400 leading-8 mb-10"><a href="http://pendergastkc.org">The Pendergast Years | Kansas City
+                          <h4>Coupa</h4>
+                          <h3 className="mb-10 text-zinc-900 leading-8"> We project managed and engineered site architecture. Deployed Drupal, completed development and
+                            DevOps for <a href="http://www.coupa.com" target="_blank" rel="noreferrer">coupa.com.</a> The site is multilingual.
+                          </h3>
+                          <h4>The Kansas City Public Library</h4>
+                            <p className="text-zinc-400 leading-8 mb-10"><a href="https://kclibrary.org" target="_blank" rel="noreferrer">The Kansas City Public Library</a> &  <a href="http://pendergastkc.org" target="_blank" rel="noreferrer">The Pendergast Years | Kansas City
                                 in the Jazz Age & Great Depression.</a> Tom Pendergast was a Democrat and Kansas City political
-                                boss who's corruption was legendary.</p><p className="text-zinc-400 leading-8 mb-8">
-                            The Penderast Years site features advanced SOLR search to expose the metadata to use as
-                            navigation. One of our favorite collections using metadata navigation is <a
-                            href="https://pendergastkc.org/tgm-subject/musicians">Jazz musicians of the era.</a></p>
-                            <p className="text-zinc-400 leading-8 pt-4 mb-10">Deep Zoom functionality is used to allow inspections of historical
-                                documents. A favorite image of mine is <a href="http://pendergastkc.org/collection/10554/k0054-v12p194-01/plaza-dog-mart">The
-                                    Plaza Dog Mart.</a></p>
+                                boss whose corruption was legendary. This American history site explores the decade.</p><p className="text-zinc-400 leading-8 mb-8">
+                           </p>
 
                         </div>
                         <div className="md:w-1/3">
 
                             <div className="project-folder font-thin text-zinc-400 text-base leading-8">
                                 <div className="text-lg md:text-3xl text-theme-comp-dark font-thin pt-1">Projects Folder</div>
+                              <br/>
                                 <div>
-                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://pendergastkc.org">The Pendergast Years</a> </span>
+                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://pendergastkc.org" target="_blank" rel="noreferrer">The Pendergast Years</a> </span>
                                         - Kansas City in the Jazz Age & Great Depression.
                                     </p>
-                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll"
-                                                                                     href="#composthero">Compost Hero</a></span> -
-                                        The Compost Hero
-                                        is the easy way to turn your garden
-                                        leaves into high quality compost mulch.</p>
-                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://kclibrary.org"> <a
+                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://kclibrary.org" target="_blank" rel="noreferrer"> <a
                                         className="scroll"
                                         href="#kclibrary">The Kansas City Public Library</a></a> </span>
                                          - The KCPL website has been
@@ -89,6 +82,14 @@ const IndexPage = () => {
                                         from their mobile devices. We migrated this site from Drupal 6 and gave it an
                                         organizational update.
                                     </p>
+                                  <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll" href="#composthero">Sub70</a></span> -
+                                    E-commerce Shopify site for a luxury golf apparal company.</p>
+                                  <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll" href="#composthero">ToyWatch</a></span> -
+                                    E-commerce site for a luxury watch brand</p>
+                                  <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll" href="#composthero">Westport Spice</a></span> -
+                                    E-commerce Magento site for spice blend manufacturer</p>
+                                  <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll" href="#composthero">Morgenthal Frederics</a></span> -
+                                    Marketing site for luxury eyeware retailer</p>
                                 </div>
                             </div>
 

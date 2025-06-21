@@ -89,7 +89,7 @@ module.exports = {
                 'theme-dark': '#05668D',
                 'theme-tint': '#ebf2fa',
                 'theme-comp': '#bbff00',
-                'theme-comp-dark': '#679436',
+                'theme-comp-dark': '#d65108',
                 'pinks': '#FF1493',
                 'black': '#1c1917'
             },
