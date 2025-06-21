@@ -9,7 +9,7 @@
 
 @layer base {
     .js-main-wrapper a {
-        @apply text-theme-comp-dark hover:text-theme-color visited:text-theme-comp-dark
+        @apply text-theme-comp-dark hover:text-theme-color visited:text-theme-comp-dark;
     }
 }
 

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6402c2-7218-4486-a18f-844d12f61fa7" name="Changes" comment="Text Update" />
+    <list default="true" id="7c6402c2-7218-4486-a18f-844d12f61fa7" name="Changes" comment="Update the thing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +98,7 @@
     <MESSAGE value="Icon Add" />
     <MESSAGE value="Gtag fix" />
     <MESSAGE value="Text Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Text Update" />
+    <MESSAGE value="Update the thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the thing" />
   </component>
 </project>
