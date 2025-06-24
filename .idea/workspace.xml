@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6402c2-7218-4486-a18f-844d12f61fa7" name="Changes" comment="Remove next">
+    <list default="true" id="7c6402c2-7218-4486-a18f-844d12f61fa7" name="Changes" comment="Add animations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StructuredData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StructuredData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +100,7 @@
     <MESSAGE value="Text Update" />
     <MESSAGE value="Update the thing" />
     <MESSAGE value="Remove next" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove next" />
+    <MESSAGE value="Add animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add animations" />
   </component>
 </project>

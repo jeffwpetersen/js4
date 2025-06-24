@@ -50,7 +50,7 @@ const IndexPage = () => {
                             </h2>
                           <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Recently...</div>
                           <h4>Purple</h4>
-                          <h3 className="mb-10 text-zinc-900 leading-8">We engineered and executed solutions for Purple.com. We contributed to much of the site and completed a complete overhaul of the blog. <a onClick={() => scrollTo('#PURPLE')}>purple.com.</a>
+                          <h3 className="mb-10 text-zinc-900 leading-8">We engineered and executed solutions for Purple.com. We contributed to much of the site and completed a complete overhaul of the blog. <a href="#PURPLE" className="scroll">purple.com.</a>
                           </h3>
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Previously...</div>
                           <h4>Coupa</h4>
@@ -65,7 +65,6 @@ const IndexPage = () => {
 
                         </div>
                         <div className="md:w-1/3 slide-in delay-300">
-`
                             <div className="project-folder font-thin text-zinc-500 text-base leading-8">
                                 <div className="text-lg md:text-3xl text-theme-comp-dark font-thin pt-1">Projects Folder</div>
                               <br/>
@@ -73,9 +72,9 @@ const IndexPage = () => {
                                     <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://pendergastkc.org" target="_blank" rel="noreferrer">The Pendergast Years</a> </span>
                                         - Kansas City in the Jazz Age & Great Depression.
                                     </p>
-                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a href="http://kclibrary.org" target="_blank" rel="noreferrer"> <a
+                                    <p className="lighter mb-8 md:text-lg"><span className="pink"><a
                                         className="scroll"
-                                        href="#kclibrary">The Kansas City Public Library</a></a> </span>
+                                        href="#kclibrary">The Kansas City Public Library</a> </span>
                                          - The KCPL website has been
                                         remodeled and is now responsive. Patrons of the library can now easily access
                                         the
@@ -97,7 +96,7 @@ const IndexPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pager hidden md:block"><button onClick={() => scrollTo('#PURPLE')}>
+                <div className="pager hidden md:block"><button onClick={() => scrollTo('#PURPLE')} aria-label="Scroll to Purple section">
                     <div className="arrow"><span><img src={Arrow} alt="Arrow Icon"/></span></div>
                 </button></div>
             </div>
@@ -113,6 +112,9 @@ const IndexPage = () => {
           <Footer>
               footer
           </Footer>
+          <div className="container py-4">
+              <ReactVersion />
+          </div>
         </div>
     )
 }

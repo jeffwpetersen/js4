@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import favicon from '../images/icon.png';
 
-const StructuredData = ({ siteUrl, title, author, social, linkedin }) => {
+const StructuredData = ({ children }) => {
 
     const data = useStaticQuery(graphql`
         query {
@@ -52,10 +52,9 @@ const StructuredData = ({ siteUrl, title, author, social, linkedin }) => {
                     }
                   `}
             </script>
-
+            {children}
         </Helmet>
     )
 }
 
 export default StructuredData
-
