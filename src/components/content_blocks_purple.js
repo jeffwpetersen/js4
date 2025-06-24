@@ -25,7 +25,7 @@ const ContentBlocksPurple = () => {
         <div className="pager">
           <button onClick={() => scrollTo('#CPH')}>
           <div className="arrow hidden sm:block"><span><img src={Arrow} alt="Arrow Icon" /></span></div>
-          <div className="sm:hidden text-center mt-4 text-pink-500 font-bold">Next</div>
+          <div className="sm:hidden text-center mt-4 text-pink-500 font-bold"></div>
           </button>
         </div>
       </div>
