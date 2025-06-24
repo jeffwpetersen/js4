@@ -5,6 +5,7 @@ import TitleHero from "../components/TitleHero"
 import StructuredData from "../components/StructuredData"
 import ContentBlocksCompost from "../components/content_blocks_compost"
 import ContentBlocksKclib from "../components/content_blocks_kclib"
+import ContentBlocksPurple from "../components/content_blocks_purple"
 import Footer from "../components/Footer"
 import ReactVersion from "../components/ReactVersion"
 import Arrow from "../images/svg/arrow.svg";
@@ -33,7 +34,7 @@ const IndexPage = () => {
                         <div className="md:w-1/3">
 
                             <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Design<br/> Develop<br/> Build<br/> Deploy<br/> Consult<br/> Create.</div>
-                          <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-400 leading-8 md:leading-11"><b>Twenty years of experience</b> and a team of helpful professionals, we have solutions to elevate your organization.
+                          <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-700 leading-8 md:leading-11"><b>Twenty years of experience</b> and a team of helpful professionals, we have solutions to elevate your organization.
                               If you're in need of <span className="text-black">engineering solutions, design
                     management</span> or <span className="text-black">software development</span> get in touch and let us
                                     know what problems we can solve.<br/>
@@ -49,23 +50,23 @@ const IndexPage = () => {
                             </h2>
                           <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Recently...</div>
                           <h4>Purple</h4>
-                          <h3 className="mb-10 text-zinc-900 leading-8">We executed and engineered solutions for Purple.com the matress manufacturer. We contributed to much of the site and completed a complete overhaul of the blog. <a href="https://purple.com/blog" target="_blank" rel="noreferrer">purple.com.</a>
+                          <h3 className="mb-10 text-zinc-900 leading-8">We engineered and executed solutions for Purple.com. We contributed to much of the site and completed a complete overhaul of the blog. <a onClick={() => scrollTo('#PURPLE')}>purple.com.</a>
                           </h3>
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Previously...</div>
                           <h4>Coupa</h4>
-                          <h3 className="mb-10 text-zinc-900 leading-8"> We project managed and engineered site architecture. Deployed Drupal, completed development and
-                            DevOps for <a href="http://www.coupa.com" target="_blank" rel="noreferrer">coupa.com.</a> The site is multilingual.
+                          <h3 className="mb-10 text-zinc-900 leading-8"> We project managed and engineered a multilingual site architecture. Deployed Drupal, completed development and
+                            DevOps engineering for <a  href="http://www.coupa.com" target="_blank" rel="noreferrer">coupa.com.</a>
                           </h3>
                           <h4>The Kansas City Public Library</h4>
-                            <p className="text-zinc-400 leading-8 mb-10"><a href="https://kclibrary.org" target="_blank" rel="noreferrer">The Kansas City Public Library</a> &  <a href="http://pendergastkc.org" target="_blank" rel="noreferrer">The Pendergast Years | Kansas City
+                            <p className="text-zinc-500 leading-8 mb-10"><a href="https://kclibrary.org" target="_blank" rel="noreferrer">The Kansas City Public Library</a> &  <a href="http://pendergastkc.org" target="_blank" rel="noreferrer">The Pendergast Years | Kansas City
                                 in the Jazz Age & Great Depression.</a> Tom Pendergast was a Democrat and Kansas City political
                                 boss whose corruption was legendary. This American history site explores the decade.</p><p className="text-zinc-400 leading-8 mb-8">
                            </p>
 
                         </div>
                         <div className="md:w-1/3">
-
-                            <div className="project-folder font-thin text-zinc-400 text-base leading-8">
+`
+                            <div className="project-folder font-thin text-zinc-500 text-base leading-8">
                                 <div className="text-lg md:text-3xl text-theme-comp-dark font-thin pt-1">Projects Folder</div>
                               <br/>
                                 <div>
@@ -89,27 +90,29 @@ const IndexPage = () => {
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll" href="#composthero">Westport Spice</a></span> -
                                     E-commerce Magento site for spice blend manufacturer</p>
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><a className="scroll" href="#composthero">Morgenthal Frederics</a></span> -
-                                    Marketing site for luxury eyeware retailer</p>
+                                    Marketing site for luxury eye-ware retailer</p>
                                 </div>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div className="pager hidden md:block"><button onClick={() => scrollTo('#CPH')}>
+                <div className="pager hidden md:block"><button onClick={() => scrollTo('#PURPLE')}>
                     <div className="arrow"><span><img src={Arrow} alt="Arrow Icon"/></span></div>
                 </button></div>
             </div>
-
-            <ContentBlocksCompost>
-                Compost Hero
-            </ContentBlocksCompost>
-            <ContentBlocksKclib>
-                Compost Hero
-            </ContentBlocksKclib>
-            <Footer>
-                footer
-            </Footer>
+          <ContentBlocksPurple>
+            Purple
+          </ContentBlocksPurple>
+          <ContentBlocksCompost>
+              Compost Hero
+          </ContentBlocksCompost>
+          <ContentBlocksKclib>
+              Compost Hero
+          </ContentBlocksKclib>
+          <Footer>
+              footer
+          </Footer>
         </div>
     )
 }

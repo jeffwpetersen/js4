@@ -48,6 +48,29 @@ body {
   //line-height: 3rem;
 }
 
+.purple-site {
+  position: relative;
+  background-color: #1F1A5E;
+  min-height: 100vh;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  img {
+    width: 100%;
+  }
+  .callout {
+    margin: auto;
+    padding: 2rem;
+    color: $theme-tint;
+    text-align: center;
+  }
+  .text-purple-purple {
+    color: #1F1A5E;
+  }
+}
+
 .compost-hero {
   position: relative;
   background-color: #86b622;
@@ -62,7 +85,7 @@ body {
     width: 100%;
   }
   .callout {
-    background: rgba(255, 255, 255, .9);
+    background-color: white;
     margin: auto;
     padding: 2rem;
     border: 2px solid;

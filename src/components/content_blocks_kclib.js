@@ -18,8 +18,7 @@ const ContentBlocksKclib = () => {
                         <p className="font-body text-md mb-3 md:mb-6 font-light">The upgrade of the website was an opportunity to create a more flexible and
                             responsive user interface. Library services were organized into a more appropriate and
                             understandable
-                            interface. The new <a className="white underline-text" href="http://kclibrary.org">kclibrary.org</a>
-                            site is now fully responsive.
+                            interface. The new <a className="white underline-text" href="http://kclibrary.org" target="_blank" rel="noreferrer">kclibrary.org</a> site is now fully responsive.
                         </p>
                         <p className="lighter font-body text-md mb-6 font-light"><strong>Usability and User Interface Design Management</strong><br/>
                             Extensive user testing was done after the site was designed and was widely regarded as
