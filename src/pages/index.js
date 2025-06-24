@@ -50,7 +50,7 @@ const IndexPage = () => {
                             </h2>
                           <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Recently...</div>
                           <h4>Purple</h4>
-                          <h3 className="mb-10 text-zinc-900 leading-8">We engineered and executed solutions for Purple.com. We contributed to much of the site and completed a complete overhaul of the blog. <button onClick={() => scrollTo('#PURPLE')} aria-label="Scroll to Purple section">purple.com.</button>
+                          <h3 className="mb-10 text-zinc-900 leading-8">We engineered and executed solutions for Purple.com. We contributed to much of the site and completed a complete overhaul of the blog. <a href="#PURPLE" className="scroll">purple.com.</a>
                           </h3>
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Previously...</div>
                           <h4>Coupa</h4>
@@ -112,9 +112,6 @@ const IndexPage = () => {
           <Footer>
               footer
           </Footer>
-          <div className="container py-4">
-              <ReactVersion />
-          </div>
         </div>
     )
 }
