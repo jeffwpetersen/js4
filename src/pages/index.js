@@ -31,7 +31,7 @@ const IndexPage = () => {
             <div className="js-main-wrapper ">
                 <div className="container mt-10 md:mt-20 pb-10 md:pb-20 ">
                     <div className="md:flex gap-12">
-                        <div className="md:w-1/3">
+                        <div className="md:w-1/3 slide-in delay-100">
 
                             <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Design<br/> Develop<br/> Build<br/> Deploy<br/> Consult<br/> Create.</div>
                           <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-700 leading-8 md:leading-11"><b>Twenty years of experience</b> and a team of helpful professionals, we have solutions to elevate your organization.
@@ -43,7 +43,7 @@ const IndexPage = () => {
                                 us.</a></strong></p></div>
 
                         </div>
-                        <div className="md:w-1/3 md:text-md font-light text-zinc-500">
+                        <div className="md:w-1/3 md:text-md font-light text-zinc-500 slide-in delay-200">
 
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold align-baseline pt-3 mb-[4px]">Currently...</div>
                             <h2 className="mb-10 text-zinc-900 leading-8">We are partnering with <b>Ash & Hickory Co.,</b> an executive office space manufacturer, retailer and exhibitor. We are creating an exceptional user experience and technology stack to bring this e-commerce site to life.
@@ -64,7 +64,7 @@ const IndexPage = () => {
                            </p>
 
                         </div>
-                        <div className="md:w-1/3">
+                        <div className="md:w-1/3 slide-in delay-300">
 `
                             <div className="project-folder font-thin text-zinc-500 text-base leading-8">
                                 <div className="text-lg md:text-3xl text-theme-comp-dark font-thin pt-1">Projects Folder</div>
