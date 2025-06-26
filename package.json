@@ -47,7 +47,8 @@
   "overrides": {
     "react-server-dom-webpack": {
       "react": "$react"
-    }
+    },
+    "lmdb": "2.6.0"
   },
   "engines": {
     "node": ">=20.11.1"
