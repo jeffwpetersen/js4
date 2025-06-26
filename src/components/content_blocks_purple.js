@@ -2,7 +2,7 @@ import * as React from 'react';
 import PurpleLogo from "../images/svg/purple-logo.svg" // Tell webpack this JS file uses this image
 import Arrow from "../images/svg/arrow.svg" // Tell webpack this JS file uses this image
 import BackgroundImage from "../images/purple-grid.jpg"
-import scrollTo from "gatsby-plugin-smoothscroll"; // Tell webpack this JS file uses this image
+import { scroller } from "react-scroll"; // Tell webpack this JS file uses this image
 
 
 
@@ -23,7 +23,11 @@ const ContentBlocksPurple = () => {
           </div>
         </div>
         <div className="pager">
-          <button onClick={() => scrollTo('#CPH')}>
+          <button onClick={() => scroller.scrollTo('CPH', {
+            smooth: true,
+            offset: 0,
+            duration: 500
+          })}>
           <div className="arrow hidden sm:block"><span><img src={Arrow} alt="Arrow Icon" /></span></div>
           <div className="sm:hidden text-center mt-4 text-pink-500 font-bold"></div>
           </button>

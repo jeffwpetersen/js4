@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Arrow from "../images/svg/arrow.svg";
 import BackgroundImage from "../images/kclibrary_icons.png"
-import scrollTo from "gatsby-plugin-smoothscroll"; // Tell webpack this JS file uses this image
+import { scroller } from "react-scroll"; // Tell webpack this JS file uses this image
 
 
 const ContentBlocksKclib = () => {
@@ -28,7 +28,12 @@ const ContentBlocksKclib = () => {
                 </div>
 
             </div>
-            <div className="pager"><button onClick={() => scrollTo('#contact')}>
+            <div className="pager"><button onClick={() => scroller.scrollTo('contact', {
+                smooth: true,
+                offset: 0,
+                duration: 500,
+                ignoreCancelEvents: true
+            })}>
                 <div className="arrow"><span><img src={Arrow} alt="Arrow Icon"/></span></div>
             </button></div>
         </section>

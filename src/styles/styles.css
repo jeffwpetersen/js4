@@ -18,9 +18,28 @@
   }
 }
 
+@keyframes sectionDivFadeIn {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .slide-in {
-  animation: slideInFromBottom 0.8s ease-out forwards;
+  animation: slideInFromBottom 1.3s ease-out forwards;
   opacity: 0;
+}
+
+section > div {
+  opacity: 0;
+}
+
+.fade-in-visible {
+  animation: sectionDivFadeIn 0.3s ease-out forwards;
 }
 
 .delay-100 {

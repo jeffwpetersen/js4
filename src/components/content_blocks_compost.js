@@ -2,7 +2,7 @@ import * as React from 'react';
 import CompostHeroLogo from "../images/compost_hero_logo.png" // Tell webpack this JS file uses this image
 import Arrow from "../images/svg/arrow.svg" // Tell webpack this JS file uses this image
 import BackgroundImage from "../images/sun-graphic-compost-hero-full.png"
-import scrollTo from "gatsby-plugin-smoothscroll"; // Tell webpack this JS file uses this image
+import { scroller } from "react-scroll"; // Tell webpack this JS file uses this image
 
 
 
@@ -21,11 +21,15 @@ const ContentBlocksCompost = () => {
                     </p></div>
                 </div>
             </div>
-            <div className="pager"><button onClick={() => scrollTo('#kclibrary')}>
+            <div className="pager"><button onClick={() => scroller.scrollTo('kclibrary', {
+                smooth: true,
+                offset: 0,
+                duration: 500,
+                ignoreCancelEvents: true
+            })}>
                 <div className="arrow"><span><img src={Arrow} alt="Arrow Icon" /></span></div>
             </button></div>
         </section>
     )
 }
 export default ContentBlocksCompost
-
