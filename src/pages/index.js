@@ -105,7 +105,7 @@ const IndexPage = () => {
                             <div className="text-lg md:text-xl text-zinc-700 font-semibold pt-[4px] mb-[4px]">Previously...</div>
                           <h4 className="font-bold text-zinc-900">Coupa</h4>
                           <h3 className="mb-10 text-zinc-900 leading-8"> We engineered the corporate website for Coupa, a premier silicon valley SaaS company. We migrated their flat-code site to a modern CMS, We project managed and engineered a multilingual site architecture. Deployed Drupal, completed development and
-                            containerized Docker and Kubernetes DevOps engineering for <a  href="http://www.coupa.com" target="_blank" rel="noreferrer">coupa.com.</a>
+                            containerized Docker and Kubernetes DevOps engineering for <Link to="COUPA" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}>coupa.com.</Link>
                           </h3>
                           <h4 className="font-bold text-zinc-900">The Kansas City Public Library</h4>
                             <p className="text-zinc-500 leading-8 mb-10">
