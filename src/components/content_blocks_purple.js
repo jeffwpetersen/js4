@@ -22,16 +22,16 @@ const ContentBlocksPurple = () => {
               </div>
           </div>
         </div>
-        <div className="pager">
-          <button onClick={() => scroller.scrollTo('CPH', {
-            smooth: true,
-            offset: 0,
-            duration: 500
-          })}>
+      </div>
+      <div className="pager">
+        <button onClick={() => scroller.scrollTo('COUPA', {
+          smooth: true,
+          offset: 0,
+          duration: 500
+        })}>
           <div className="arrow hidden sm:block"><span><img src={Arrow} alt="Arrow Icon" /></span></div>
           <div className="sm:hidden text-center mt-4 text-pink-500 font-bold"></div>
-          </button>
-        </div>
+        </button>
       </div>
     </section>
   )

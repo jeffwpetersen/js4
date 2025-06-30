@@ -6,6 +6,8 @@ import TitleHero from "../components/TitleHero"
 import StructuredData from "../components/StructuredData"
 import ContentBlocksKclib from "../components/content_blocks_kclib"
 import ContentBlocksPurple from "../components/content_blocks_purple"
+import ContentBlocksCoupaSucks from "../components/content_blocks_coupasucks"
+
 import Footer from "../components/Footer"
 import Arrow from "../images/svg/arrow.svg";
 import { Link, Element, scroller } from 'react-scroll';
@@ -147,6 +149,9 @@ const IndexPage = () => {
           <ContentBlocksPurple>
             Purple
           </ContentBlocksPurple>
+          <ContentBlocksCoupaSucks>
+            Coupa
+          </ContentBlocksCoupaSucks>
           <ContentBlocksKclib>
               Compost Hero
           </ContentBlocksKclib>
