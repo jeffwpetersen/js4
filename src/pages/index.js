@@ -123,13 +123,13 @@ const IndexPage = () => {
                               <br/>
                                 <div>
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><Link to="CPH" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}>Sub70</Link></span> -
-                                    E-commerce Shopify site for a luxury golf apparal company.</p>
+                                    E-commerce Shopify site for a luxury golf apparel company.</p>
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><Link to="CPH" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}>ToyWatch</Link></span> -
-                                    E-commerce site for a luxury watch brand</p>
+                                    E-commerce site for a luxury watch brand.</p>
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><Link to="CPH" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}>Westport Spice</Link></span> -
-                                    E-commerce Magento site for spice blend manufacturer</p>
+                                    E-commerce Magento site for spice blend manufacturer.</p>
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><Link to="CPH" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}>Morgenthal Frederics</Link></span> -
-                                    Marketing site for luxury eye-ware retailer</p>
+                                    Marketing site for luxury eye-ware retailer.</p>
                                 </div>
                             </div>
 
