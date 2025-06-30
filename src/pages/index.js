@@ -130,8 +130,6 @@ const IndexPage = () => {
                                     E-commerce Magento site for spice blend manufacturer</p>
                                   <p className="lighter mb-8 md:text-lg"><span className="pink"><Link to="CPH" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}>Morgenthal Frederics</Link></span> -
                                     Marketing site for luxury eye-ware retailer</p>
-                                  <p className="lighter mb-8 md:text-lg"><span className="pink"><Link to="CPH" smooth={true} duration={500} spy={true} ignoreCancelEvents={true} className="react-scroll-link" style={{cursor: 'pointer'}}></Link></span> -
-                                    Marketing site for luxury eye-ware retailer</p>
                                 </div>
                             </div>
 
