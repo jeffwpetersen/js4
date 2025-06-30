@@ -15,7 +15,7 @@ const ContentBlocksCoupa = () => {
             <h3 className="font-extrabold text-lg sm:text-2xl text-zinc-900 uppercase my-4 sm:my-8">Coupa is a Leading SaaS Business Management Platform</h3>
             <div className="half-space"><p className="font-light text-md sm:text-lg text-zinc-500 my-4 sm:my-8">We engineered the Coupa corporate website on the Drupal platform. Using the translation API we brought the site to 5 international markets.
             </p>
-              <a href="http://purple.com" target="_blank" rel="noreferrer" className="text-purple-purple font-extrabold sm:text-xl">Coupa.com</a>
+              <a href="http://coupa.com" target="_blank" rel="noreferrer" className="text-purple-purple font-extrabold sm:text-xl">Coupa.com</a>
             </div>
           </div>
         </div>
