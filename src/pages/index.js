@@ -83,7 +83,7 @@ const IndexPage = () => {
                     <div className="md:flex gap-12">
                         <div className="md:w-1/3 slide-in delay-100">
 
-                            <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Design<br/> Develop<br/> Build<br/> Deploy<br/> Consult<br/> Create.</div>
+                            <div className="text-2xl md:text-3xl xl:text-6xl text-theme-comp-dark font-bold align-baseline mb-[28px] leading-10 md:leading-14">Build<br/> Design<br/> Develop<br/> Deploy<br/> Consult<br/> Create.</div>
                           <h1 className="brand-statement text-md md:text-lg font-extralight text-zinc-700 leading-8 md:leading-11"><b>Twenty years of experience</b> and a team of helpful professionals, we have solutions to elevate your organization.
                               If you're in need of <span className="text-black">engineering solutions, design
                     management</span> or <span className="text-black">software development</span> get in touch and let us
