@@ -69,8 +69,10 @@ const McroMarketPage = () => {
           <div className="text-2xl font-bold text-theme-color">MCROMRKT</div>
           <div className="hidden md:flex space-x-6">
             <Link to="#" className="text-gray-600 hover:text-theme-color">Home</Link>
+            <Link to="#" className="text-gray-600 hover:text-theme-color">Retailers</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Manufacturers</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Shows</Link>
+            <Link to="#" className="text-gray-600 hover:text-theme-color">Promoters</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Success Stories</Link>
           </div>
           <button className="md:hidden text-gray-600">
@@ -95,6 +97,12 @@ const McroMarketPage = () => {
               Find retailers
             </button>
           </div>
+          <div className="bg-blend-screen py-6">
+            <button className="bg-white text-theme-color font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300">
+              Show Promoter? Click Here
+            </button>
+          </div>
+
         </div>
       </section>
 
@@ -163,8 +171,7 @@ const McroMarketPage = () => {
       {/* Create Account Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Create an account and introduce yourself.</h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Someone needs you.</p>
+          <h4 className="text-xl font-bold mb-2 max-w-lg mx-auto leading-snug">Create a MCROMRKT account and introduce yourself.</h4>
           <button className="bg-theme-color text-white font-bold py-3 px-8 rounded-full hover:bg-theme-dark transition duration-300">
             Get Started
           </button>
@@ -174,8 +181,9 @@ const McroMarketPage = () => {
       {/* Shows Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Shows you can find MCROMRKT retailers</h2>
-
+          <h2 className="text-3xl font-bold text-center mb-2 max-w-2xl mx-auto">Shows you can find MCROMRKT
+            retailers</h2>
+          <h5 className="text-lg font-bold text-center mb-12 mx-auto max-w-2xl text-gray-600">MCROMRKT enables you to discover events, build connections, and manage transactions to retail products at temporary venues like home shows, craft fairs, pop-up shops, and more.</h5>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Show 1 */}
             <div className="bg-gray-50 p-6 rounded-xl shadow-sm">

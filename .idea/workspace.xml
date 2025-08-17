@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6402c2-7218-4486-a18f-844d12f61fa7" name="Changes" comment="Add Coupa and fix others.">
-      <change afterPath="$PROJECT_DIR$/src/images/svg/ashandhickory.svg" afterDir="false" />
+    <list default="true" id="7c6402c2-7218-4486-a18f-844d12f61fa7" name="Changes" comment="Add MCROMRKT">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mcromrkt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mcromrkt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
     "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
 }]]></component>
@@ -107,6 +109,11 @@
     <MESSAGE value="Add effects" />
     <MESSAGE value="Fix dependencies" />
     <MESSAGE value="Add Coupa and fix others." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Coupa and fix others." />
+    <MESSAGE value="Add MCROMRKT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MCROMRKT" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
