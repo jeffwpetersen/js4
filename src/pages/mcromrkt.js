@@ -81,7 +81,7 @@ const McroMarketPage = () => {
         </nav>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Secti on */}
       <section className="bg-gradient-to-r from-theme-color to-theme-dark text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">MCROMRKT</h1>
@@ -99,7 +99,7 @@ const McroMarketPage = () => {
           </div>
           <div className="bg-blend-screen py-6">
             <button className="bg-white text-theme-color font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300">
-              Show Promoter? Click Here
+              Show Promoter
             </button>
           </div>
 
@@ -113,7 +113,7 @@ const McroMarketPage = () => {
 
           {/* Manufacturer 1 */}
           <div className="flex flex-col md:flex-row items-center bg-gray-50 rounded-xl overflow-hidden shadow-md mb-24">
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 p-8">
               <img src={AshAndHickory} alt="ASH AND HICKORY" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
@@ -126,7 +126,7 @@ const McroMarketPage = () => {
 
           {/* Manufacturer 2 */}
           <div className="flex flex-col md:flex-row items-center bg-gray-50 rounded-xl overflow-hidden shadow-md mb-24">
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 p-8">
               <img src={PaoniaDeluxeJar} alt="Mocktail supplies" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
@@ -139,7 +139,7 @@ const McroMarketPage = () => {
 
           {/* Manufacturer 3 */}
           <div className="flex flex-col md:flex-row items-center bg-gray-50 rounded-xl overflow-hidden shadow-md mb-24">
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 p-8">
               <img src={Garden} alt="Mocktail supplies" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
@@ -152,7 +152,7 @@ const McroMarketPage = () => {
 
           {/* Manufacturer 4 */}
           <div className="flex flex-col md:flex-row items-center bg-gray-50 rounded-xl overflow-hidden shadow-md">
-            <div className="md:w-1/3">
+            <div className="md:w-1/3 p-8">
               <img src={Westport} alt="Mocktail supplies" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
