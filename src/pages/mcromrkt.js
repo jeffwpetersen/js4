@@ -84,7 +84,6 @@ const McroMarketPage = () => {
       {/* Hero Secti on */}
       <section className="bg-gradient-to-r from-theme-color to-theme-dark text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">MCROMRKT</h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-center leading-snug">MCROMRKT allows manufacturers to access
             alternative
             distribution channels, brand build and manage relationships with retailers.
@@ -109,7 +108,7 @@ const McroMarketPage = () => {
       {/* Top Manufacturers Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Top Manufacturers</h2>
+          <h2 className="text-2xl font-bold text-center mb-12">Top Manufacturers</h2>
 
           {/* Manufacturer 1 */}
           <div className="flex flex-col md:flex-row items-center bg-gray-50 rounded-xl overflow-hidden shadow-md mb-24">
@@ -117,8 +116,8 @@ const McroMarketPage = () => {
               <img src={AshAndHickory} alt="ASH AND HICKORY" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
-              <h3 className="text-2xl font-bold text-theme-color">Ash & Hickory</h3>
-              <h4 className="text-lg mb-2">Manufacturers of home executive office furniture and accessories.</h4>
+              <h3 className="text-xl font-bold text-theme-color">Ash & Hickory</h3>
+              <h4 className="text-lg mb-2 leading-snug">Manufacturers of home executive office furniture and accessories.</h4>
               <p className="mb-4">Ash & Hickory crafts premium executive furniture for homes and offices, specializing in sophisticated office spaces for busy professionals. We take pride in our exceptional quality and dedicated customer service. If you're an enthusiastic retailer interested in showcasing and distributing our products at home shows in your area, please reach out to us.</p>
               <Link to="#" className="text-theme-color font-semibold hover:underline">Become a retailer distributor</Link>
             </div>
@@ -130,8 +129,8 @@ const McroMarketPage = () => {
               <img src={PaoniaDeluxeJar} alt="Mocktail supplies" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
-              <h3 className="text-2xl font-bold mb-4 text-theme-color">Paonia Deluxe</h3>
-              <p className="text-lg mb-2">Manufacturers of non-alcoholic mixes, liquors, candied cherries and mocktail supplies.</p>
+              <h3 className="text-xl font-bold mb-4 text-theme-color">Paonia Deluxe</h3>
+              <p className="text-lg mb-2 leading-snug">Manufacturers of non-alcoholic mixes, liquors, candied cherries and mocktail supplies.</p>
               <p className="mb-4">Paonia Deluxe manufacturers non-alcoholic mixes and liquors, candied cherries and mocktail supplies.</p>
               <Link to="#" className="text-theme-color font-semibold hover:underline">Become a representative</Link>
             </div>
@@ -143,8 +142,8 @@ const McroMarketPage = () => {
               <img src={Garden} alt="Mocktail supplies" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
-              <h3 className="text-2xl font-bold mb-4 text-theme-color">Garden Great</h3>
-              <p className="text-lg mb-2">Unique Goods for Outdoor Living and Indoor Decorating.</p>
+              <h3 className="text-xl font-bold mb-4 text-theme-color">Garden Great</h3>
+              <p className="text-lg mb-2 leading-snug">Unique Goods for Outdoor Living and Indoor Decorating.</p>
               <p className="mb-4">Wrought Iron Gates and Fencing for the Home and Garden. We Specialize in Historical Metal Fence and Flower Planter Containers like Wrought Iron Planters and have the perfect Garden Bench or Gazebo to sit and enjoy nature. We offer garden structures like arbors and arches to make landscaping your property easy. We design and build custom, steel entry gates to decorate your home and gardens for a lifetime.</p>
               <Link to="#" className="text-theme-color font-semibold hover:underline">Become a retailer</Link>
             </div>
@@ -156,8 +155,8 @@ const McroMarketPage = () => {
               <img src={Westport} alt="Mocktail supplies" className="w-full h-full object-cover"/>
             </div>
             <div className="md:w-2/3 p-8">
-              <h3 className="text-2xl font-bold mb-4 text-theme-color">Westport Spice</h3>
-              <p className="text-lg mb-2">Westport Spice brings you unique spice blends, spices and soup mixes. </p>
+              <h3 className="text-xl font-bold mb-4 text-theme-color">Westport Spice</h3>
+              <p className="text-lg mb-2 leading-snug">Westport Spice brings you unique spice blends, spices and soup mixes. </p>
               <p className="mb-4">Dedicated to the highest quality spice blends, soups and recipes. Practical and easy to prepare, spice blends are an easy and healthy way to cook.</p>
               <Link to="#" className="text-theme-color font-semibold hover:underline">Become a retailer</Link>
             </div>
@@ -183,7 +182,7 @@ const McroMarketPage = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-2 max-w-2xl mx-auto">Shows you can find MCROMRKT
             retailers</h2>
-          <h5 className="text-lg font-bold text-center mb-12 mx-auto max-w-2xl text-gray-600">MCROMRKT enables you to discover events, build connections, and manage transactions to retail products at temporary venues like home shows, craft fairs, pop-up shops, and more.</h5>
+          <h5 className="text-lg font-bold text-center mb-12 mx-auto max-w-2xl text-gray-600 leading-snug">MCROMRKT enables you to discover events, build connections, and manage transactions to retail products at temporary venues like home shows, craft fairs, pop-up shops, and more.</h5>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Show 1 */}
             <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
