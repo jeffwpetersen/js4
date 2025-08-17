@@ -131,7 +131,7 @@ const McroMarketPage = () => {
             </div>
             <div className="md:w-2/3 p-8">
               <h3 className="text-2xl font-bold mb-4 text-theme-color">Paonia Deluxe</h3>
-              <p className="text-lg mb-2">Manufacturers of non-alcoholic mixes and liquor candied cherries and mocktail supplies.</p>
+              <p className="text-lg mb-2">Manufacturers of non-alcoholic mixes, liquors, candied cherries and mocktail supplies.</p>
               <p className="mb-4">Paonia Deluxe manufacturers non-alcoholic mixes and liquors, candied cherries and mocktail supplies.</p>
               <Link to="#" className="text-theme-color font-semibold hover:underline">Become a representative</Link>
             </div>
