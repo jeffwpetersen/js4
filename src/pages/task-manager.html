@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <meta name="description" content="Personal task management system">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#3b82f6",
+                        secondary: "#1e40af"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold text-gray-800">Task List</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <!-- HOUSE Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-primary px-6 py-4">
+                    <h2 class="text-xl font-semibold text-white">HOUSE</h2>
+                </div>
+                <div class="p-6">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <div class="ml-4">
+                                            <div class="text-sm font-medium text-gray-900">Repair insulation under the house</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right">
+                                    <button class="text-red-500 hover:text-red-700">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <div class="ml-4">
+                                            <div class="text-sm font-medium text-gray-900">Move router and install plug</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right">
+                                    <button class="text-red-500 hover:text-red-700">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <!-- Additional HOUSE tasks would be listed here -->
+                        </tbody>
+                    </table>
+                    
+                    <!-- Add Task Form for HOUSE -->
+                    <form class="mt-4 flex">
+                        <input type="text" class="flex-grow px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Add new HOUSE task...">
+                        <button type="submit" class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-secondary">Add</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ASH AND HICKORY Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-primary px-6 py-4">
+                    <h2 class="text-xl font-semibold text-white">ASH AND HICKORY</h2>
+                </div>
+                <div class="p-6">
+                    <!-- WEBSITE Subsection -->
+                    <div class="mb-8">
+                        <h3 class="text-lg font-medium text-gray-800 mb-4">WEBSITE</h3>
+                        <table class="min-w-full divide-y divide-gray-200 mb-4">
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900">Created detailed design system</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-right">
+                                        <button class="text-red-500 hover:text-red-700">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900">Make react page</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-right">
+                                        <button class="text-red-500 hover:text-red-700">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <!-- Add Task Form for WEBSITE -->
+                        <form class="flex">
+                            <input type="text" class="flex-grow px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Add new WEBSITE task...">
+                            <button type="submit" class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-secondary">Add</button>
+                        </form>
+                    </div>
+
+                    <!-- BUSINESS TASKS Subsection -->
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-800 mb-4">BUSINESS TASKS</h3>
+                        <table class="min-w-full divide-y divide-gray-200 mb-4">
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900">Get tax number</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-right">
+                                        <button class="text-red-500 hover:text-red-700">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900">Get checking account</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-right">
+                                        <button class="text-red-500 hover:text-red-700">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <!-- Add Task Form for BUSINESS TASKS -->
+                        <form class="flex">
+                            <input type="text" class="flex-grow px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Add new BUSINESS TASKS task...">
+                            <button type="submit" class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-secondary">Add</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-primary px-6 py-4">
+                    <h2 class="text-xl font-semibold text-white">JOB</h2>
+                </div>
+                <div class="p-6">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <div class="ml-4">
+                                            <div class="text-sm font-medium text-gray-900">Rewrite resumes</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right">
+                                    <button class="text-red-500 hover:text-red-700">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <div class="ml-4">
+                                            <div class="text-sm font-medium text-gray-900">Apply for jobs</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right">
+                                    <button class="text-red-500 hover:text-red-700">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <!-- Add Task Form for JOB -->
+                    <form class="mt-4 flex">
+                        <input type="text" class="flex-grow px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Add new JOB task...">
+                        <button type="submit" class="bg-primary text-white px-4 py-2 rounded-r-lg hover:bg-secondary">Add</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- JUNIPER STUDIO Section -->
+        <section>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="bg-primary px-6 py-4">
+                    <h2 class="text-xl font-semibold text-white">JUNIPER STUDIO</h2>
+                </div>
+                <div class="p-6">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <
