@@ -10,7 +10,7 @@
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(50px);
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     transform: translateY(0);
@@ -21,7 +21,7 @@
 @keyframes sectionDivFadeIn {
   0% {
     transform: translateY(30px);
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     transform: translateY(0);
@@ -31,11 +31,11 @@
 
 .slide-in {
   animation: slideInFromBottom 1.3s ease-out forwards;
-  opacity: 0;
+  opacity: 1;
 }
 
 section > div {
-  opacity: 0;
+  opacity: 1;
 }
 
 .fade-in-visible {
