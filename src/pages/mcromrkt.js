@@ -67,13 +67,15 @@ const McroMarketPage = () => {
       <header className="bg-white shadow-sm">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold text-theme-color">MCROMRKT</div>
-          <div className="hidden md:flex space-x-6">
-            <Link to="#" className="text-gray-600 hover:text-theme-color">Home</Link>
+          <div className="hidden md:flex space-x-6 items-center">
             <Link to="#" className="text-gray-600 hover:text-theme-color">Retailers</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Manufacturers</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Shows</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Promoters</Link>
             <Link to="#" className="text-gray-600 hover:text-theme-color">Success Stories</Link>
+            <button className="bg-gray-800 text-white font-bold py-3 rounded-full hover:text-theme-color transition duration-300 px-8">
+              LogIn
+            </button>
           </div>
           <button className="md:hidden text-gray-600">
             <i className="fas fa-bars"></i>
